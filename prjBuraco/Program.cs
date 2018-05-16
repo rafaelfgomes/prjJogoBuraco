@@ -7,6 +7,10 @@ namespace prjBuraco
 {
     class Program
     {
+
+        string[] cartasDoJogo = new string[52];
+        string[,] cartasDaMao = new string[11, 4];
+
         static void Main(string[] args)
         {
 
