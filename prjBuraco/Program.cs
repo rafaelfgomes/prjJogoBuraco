@@ -18,6 +18,43 @@ namespace prjBuraco
 
         }
 
+        static void gerarCartas()
+        {
+
+
+
+
+        }
+
+        static void distribuirCartas()
+        {
+
+
+
+
+        }
+
+        static void organizarMaos()
+        {
+
+
+
+        }
+
+        static void mostrarMaos()
+        {
+
+            
+
+        }
+
+        static bool cartaInedita(string carta)
+        {
+
+            return true;
+
+        }
+
     }
 
 }
