@@ -17,15 +17,40 @@ namespace prjBuraco
         static void Main(string[] args)
         {
 
+            Console.Write("#############################################\n");
+            Console.Write("#           PROJETO JOGO BURACO             #\n");
+            Console.Write("#############################################\n");
+            Console.WriteLine();
+
+            Console.Write("Iniciando o jogo....\n\n");
+
+            System.Threading.Thread.Sleep(3000);
+
+            Console.Write("Criando as cartas do baralho...\n\n");
+
+            System.Threading.Thread.Sleep(3000);
+
             gerarCartas();
 
             Console.WriteLine();
+
+            Console.Write("Distribuindo as cartas...\n\n");
+
+            System.Threading.Thread.Sleep(3000);
 
             distribuirCartas();
 
             Console.WriteLine();
 
+            Console.Write("Cartas distribuidas...\n\n");
+
+            System.Threading.Thread.Sleep(3000);
+
             mostrarMaos();
+
+            Console.WriteLine();
+
+            Console.Write("Pronto!!! O jogo já pode iniciar...");
 
             Console.ReadKey();
 
@@ -87,9 +112,6 @@ namespace prjBuraco
         {
 
             int index = 0;
-
-            Console.Write("Distribuicao");
-            Console.Write("\n\n");
 
             for (int i = 0; i < 11; i++)
             {
@@ -181,9 +203,7 @@ namespace prjBuraco
         static void mostrarMaos()
         {
 
-            Console.Write("Jog: 1\tJog:2\tJog: 3\tJog: 4");
-
-            Console.WriteLine();
+            Console.Write("Jog: 1\tJog:2\tJog: 3\tJog: 4\n\n");
 
             organizarMaos();
 
